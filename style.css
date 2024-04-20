@@ -1,0 +1,70 @@
+.navbar{
+    margin: 15px;
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px;
+    width : 100%;
+}
+
+.left{
+    flex : 1;
+    height: 20px;
+    margin-right: 500px;
+}
+
+.left .logo{
+    height: 100%;
+    width: 150px;
+}
+
+.right{
+    flex : 1;
+    height:  100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 15px;
+}
+
+.landing-page{
+    display: flex;
+    height: 350px;
+    width : 100%;
+    margin-left: 200px;
+
+}
+
+.l1{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.l2{
+    margin-top: 5px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.l3{
+    margin-top: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.button{
+    background-color: #387ed1; 
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    color: white;
+}
